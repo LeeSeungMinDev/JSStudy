@@ -12,8 +12,6 @@ function onGeoOk(position) {
       city.innerText = data.name;
       weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
     });
-alert(url);
-console.log(url);
 }
 function onGeoError() {
   alert("Can't find you. No weather for you.");
